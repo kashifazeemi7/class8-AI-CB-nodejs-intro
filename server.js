@@ -2,6 +2,11 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+app.get((req, res, next) => {
+    console.log('a request came!', Date.now())
+  })
+  
+
 app.get('/profile', (req, res) => {
   res.send('Welcome to your profile!')
 })
