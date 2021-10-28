@@ -27,7 +27,7 @@ How to get started:
 **Step 1:**
 - Check whether nodejs is installed on your machine or not by running this command in your powershell/ cmd: ` $ node -v`
 - If there's version number e.g. `v16.13.0`, jump to Step 3
- If it isn't, move to Step 2.
+- If it isn't, move to Step 2.
 
 **Step 2:**
 - Navigate to nodejs.org
