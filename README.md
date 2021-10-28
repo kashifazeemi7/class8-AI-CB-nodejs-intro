@@ -16,7 +16,7 @@ Some useful definitons(going thru these will give a general insight to the basic
 - Package Manager: A package manager or package management system is a collection of software tools that automates the process of managing softwares
   - The way a package manager works is you find any package in the registry and install it through the command-line, both globally and locally
 - npm: Node Package Manager; the default package manager for JavaScript's runtime Node.js, is the largest ecosystem of open source libraries in the world;
-  - npm can be assumed as a fulfillment center, that receives, manages and ships packages from sellers to customers, essentially a package handle
+  - npm can be assumed as a fulfillment center, that receives, manages and ships packages from sellers to customers, essentially a package handler
   - It consists of a command-line client, also called npm, and an online database of public and paid-for private packages called the npm registry
   - an online repository that hosts JavaScript packages, and has a CLI (command-line interface) tool for publishing and downloading packages
 
