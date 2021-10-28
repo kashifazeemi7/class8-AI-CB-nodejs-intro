@@ -1,5 +1,5 @@
 # A Path To Servers
-Deploying a basic server on nodejs
+**Deploying a basic server on nodejs**
 
 ![1_-J7MRkhmySYNWK3U8CpCCw](https://user-images.githubusercontent.com/61817392/139218102-1a6d36a4-3d2b-44d1-a681-8265289af297.png)
 
@@ -19,10 +19,10 @@ Some useful definitons(going thru these will give a general insight to the basic
   - npm can be assumed as a fulfillment center, that receives, manages and ships packages from sellers to customers, essentially a package handle
   - It consists of a command-line client, also called npm, and an online database of public and paid-for private packages called the npm registry
   - an online repository that hosts JavaScript packages, and has a CLI (command-line interface) tool for publishing and downloading packages
--
 
 
-How to get started:
+
+## How to get started:
 
 **Step 1:**
 - Check whether nodejs is installed on your machine or not by running this command in your powershell/ cmd: ` $ node -v`
@@ -35,7 +35,20 @@ How to get started:
 - After installation, run command given in Step 1 to ensure you've installed it. You'll get the version number
 
 **Step 3:**
+- Navigate to the working directory and then run the command prompt
+- Run the command `$ npm init` 
+- Press enter to set defaults, except the `entry point` where you'll enter the name of the main file e.g. `server.js`
+- Install the Express package onto your machine, by running the command `$ npm i express` or `$ npm install express`
+- Run VS Code on this directory to start creating a server
 
+**Step 4:**
+- Firstly, as you see a file called node-modules loaded on this directory, we need to avoid it getting pushed to git, cuz of its large size. So create a file called `.gitignore` and enter the file name that shouldn't be pushed. In our case, its `node_modules`
+- Create a `server.js` file in this directory
+- Here we'll use Expressjs, which is a prebuilt NodeJS framework that can help you in creating server-side web applications efficiently
+ - In short, ExpressJS did for NodeJS what Bootstrap did for HTML/CSS and responsive web design
+- Navigate to https://expressjs.com/en/starter/hello-world.html
+- Copy the code into your main file that conforms to the respective node version
 
-
-
+**Step 5:**
+- Run the server using the command `$ node app.js`
+- **Congrats!!** you've just created a basic server
