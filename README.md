@@ -1,5 +1,5 @@
 # A Path To Servers
-**Creating a basic server on nodejs**
+**Creating a basic web server on nodejs**
 
 ![1_-J7MRkhmySYNWK3U8CpCCw](https://user-images.githubusercontent.com/61817392/139218102-1a6d36a4-3d2b-44d1-a681-8265289af297.png)
 
