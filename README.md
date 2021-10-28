@@ -51,4 +51,6 @@ Some useful definitons(going thru these will give a general insight to the basic
 
 **Step 5:**
 - Run the server using the command `$ node app.js`
-- **Congrats!!** you've just created a basic server
+- load http://localhost:3000/ in a browser to see the output
+
+**Congrats!!** you've just created a basic server!
